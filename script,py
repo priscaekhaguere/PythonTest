@@ -8,3 +8,14 @@ print(scipy.__version__)
 t=np.array(['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'])
 p=pd.Series(t)
 print(p)
+import matplotlib.pyplot as plt
+x = [1, 5, 7]
+y = [20, 40, 60]
+plt.plot(x, y)
+plt.xlabel('x-axis')
+text = (0.5, 0, 'xaxis')
+plt.ylabel('y-axis')
+text = (0, 0.5, 'yaxis')
+plt.title('Value of y coresponding to x')
+text = (0.5, 1.0, 'Value of y coresponding to x')
+plt.show()
